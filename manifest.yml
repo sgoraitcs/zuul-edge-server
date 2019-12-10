@@ -3,6 +3,6 @@ applications:
 - name: zuul-edge-server
   host: zuul-edge-server-test
   path: target/zuul-edge-server-0.0.1-SNAPSHOT.jar
-  memory: 300M 
+  memory: 1M
   services:  
   - service-registry
